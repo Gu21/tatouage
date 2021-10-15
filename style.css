@@ -83,8 +83,24 @@ p {
 
     background-color: #beaa73;
     font-family: 'Roboto','Arial', sans-serif;
-    color: #fff;
-    font-family: ;
-  
+    color: #fff; 
+}
+
+.section-1-gallery {
+
+    padding-top: 108px;
+    padding-bottom: 130px;
 
 }
+.section-1-gallery .titleGallery {
+
+    padding-bottom: 50px;
+}
+
+
+.elementGallery .tattooGallery {
+
+text-align: center;
+
+}
+
