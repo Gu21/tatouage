@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h2,h3,h4, .nav-items, #transition, footer{
+
+text-align: center;
+}
+
+/* ************************ HEADER ************************** */
+
+header {
+
+    background-image:linear-gradient(to top, #000, #0002), url(./img/header-tatouage-mannequin-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+  
+}
+
+h1 {
+    font-family: 'Libre Baskerville','Arial', serif;
+    font-size: 4.5em;
+    color: #beaa73;
+    padding: 500px 0 0 25%;
+    animation-name: title;
+    animation-duration: 3.5s;
+
+}
+
+@keyframes title {
+
+    from {
+
+        opacity: 0;
+        transform: translateY(180px);
+
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+/* ************************ MAIN ************************** */
+
+#leftPart {
+
+    display: flex;
+    align-items: center;
+    padding: 0 60px 0 0;
+}
+
+.titleHistory{
+
+    font-family: 'Libre Baskerville','Arial', serif;
+    font-size: 3em;
+    padding-bottom: 35px;
+
+}
+
+p {
+   font-family: 'Libre Baskerville','Arial', serif;
+   text-align:left; 
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.5em;
+}
