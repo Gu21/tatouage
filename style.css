@@ -35,9 +35,24 @@ header {
     
 }
 
+nav .navLink {
+
+    margin-top: 12px;
+    margin-left: 300px;
+}
+
  .navItems .navLink {
 
     font-family: 'Roboto','Arial', sans-serif;
+}
+
+.navLink a {
+
+    text-decoration: none;
+    color: #fff;
+    margin-right: 60px;
+    border-bottom: 2px solid #beaa73;
+    padding-bottom: 5px;
 }
 
 .titleTattoo {
