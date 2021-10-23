@@ -40,11 +40,11 @@ header {
     font-family: 'Roboto','Arial', sans-serif;
 }
 
-h1 {
+.titleTattoo {
     font-family: 'Libre Baskerville','Arial', serif;
-    font-size: 4.5em;
+    font-size: 3.2em;
     color: #beaa73;
-    padding: 500px 0 0 25%;
+    padding: 290px 0 0 14%;
     animation-name: title;
     animation-duration: 3.5s;
 
