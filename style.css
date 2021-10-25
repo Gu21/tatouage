@@ -1,16 +1,16 @@
 /* *****************général*********************** */
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@400;700&display=swap');
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*,::after,::before {
+*,
+::after,
+::before {
 
     box-sizing: border-box;
     padding: 0;
@@ -28,16 +28,16 @@ body {
 
 header {
 
-    background-image:linear-gradient(to bottom, #000, #0002), url(./img/header-tatouage-mannequin-1.jpg);
+    background-image: linear-gradient(to bottom, rgb(12, 12, 12, 0.85), rgba(10, 10, 10, 0.45)), url(./img/header-tatouage-mannequin-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     margin-bottom: 50px;
-  
+
 }
 
- nav {
+nav {
 
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +45,7 @@ header {
     align-items: center;
     padding: 35px 100px 0;
 
-    
+
 }
 
 nav .navLink {
@@ -54,9 +54,9 @@ nav .navLink {
     margin-left: 300px;
 }
 
- .navItems .navLink {
+.navItems .navLink {
 
-    font-family: 'Roboto','Arial', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .navLink a {
@@ -69,12 +69,36 @@ nav .navLink {
 }
 
 .titleTattoo {
-    font-family: 'Libre Baskerville','Arial', serif;
+    font-family: 'Libre Baskerville', 'Arial', serif;
     font-size: 2.2em;
+    text-transform: uppercase;
     color: #beaa73;
     padding: 290px 0 0 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     animation-name: title;
     animation-duration: 3.5s;
+
+}
+
+h2 {
+
+    color: #beaa73;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+h2 .service {
+
+    color: #fff;
+}
+
+.titleTattoo .btn {
+
+    padding: 50px 0px 0px;
+    color: #fff;
 
 }
 
@@ -95,41 +119,130 @@ nav .navLink {
 
 }
 
-@media screen and (max-width: 1198px){
-   
+@media screen and (max-width: 1198px) {
+
     nav {
 
         padding: 0px 14px 0;
-  }
+    }
 
-  @media screen and (max-width: 1025px){
+    .titleTattoo {
+
+        font-size: 1.9em;
+        padding: 290px 0 0 9%;
+    }
+
+}
+
+@media screen and (max-width:880px) {
 
     nav {
 
         display: flex;
         flex-direction: column;
+        padding: 0;
 
-  }
-   
+    }
+
     nav .navLink {
         margin-top: 12px;
         margin-left: 73px;
 
     }
 
+    .titleTattoo {
+
+        font-size: 1.5em;
+
+
+    }
+}
+
 
 /* ************************ MAIN ************************** */
 
-#leftPart {
+
+/* ************************ SECTION HISTORY ************************** */
+
+
+.history {
 
     display: flex;
-    align-items: center;
-    padding: 0 60px 0 0;
+    justify-content: center;
 }
 
-.titleHistory{
+.picture-buttonHistory {
 
-    font-family: 'Libre Baskerville','Arial', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph-history {
+
+    text-align: justify;
+    max-width: 804px;
+    padding: 50px;
+}
+
+.titleHistory {
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 2.7em;
+    padding-bottom: 50px;
+
+}
+
+.paragraph-history p {
+
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.btn.history {
+
+    margin-top: 40px;
+    padding: 16px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    border: 2px solid #beaa73;
+    background-color: #fff;
+    transition-duration: 0.5s;
+}
+
+.btn.history:hover {
+
+    color: #fff;
+    background-color: #beaa73;
+}
+
+/* ************************ SECTION GALLERY ************************** */
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+
+.large-5 {
+
+   
+}
+
+
+
+
+
+
+
+/* .titleHistory {
+
+    font-family: 'Libre Baskerville', 'Arial', serif;
     font-size: 3em;
     padding-bottom: 35px;
 
@@ -137,9 +250,9 @@ nav .navLink {
 
 p {
 
-   font-family: 'Roboto','Arial', sans-serif;
-   text-align:left; 
-   line-height: 1.5em;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 .history .buttonHistory {
@@ -153,8 +266,8 @@ p {
 .btn.history {
 
     background-color: #beaa73;
-    font-family: 'Roboto','Arial', sans-serif;
-    color: #fff; 
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #fff;
 }
 
 .section-1-gallery {
@@ -163,6 +276,7 @@ p {
     padding-bottom: 130px;
 
 }
+
 .section-1-gallery .titleGallery {
 
     padding-bottom: 50px;
@@ -171,7 +285,6 @@ p {
 
 .elementGallery .tattooGallery {
 
-text-align: center;
+    text-align: center;
 
-}
-
+} */
