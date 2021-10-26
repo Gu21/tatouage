@@ -33,7 +33,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
@@ -168,7 +168,9 @@ h2 .service {
 .history {
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .picture-buttonHistory {
@@ -189,7 +191,7 @@ h2 .service {
 
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 2.7em;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
 }
 
@@ -221,18 +223,26 @@ h2 .service {
 /* ************************ SECTION GALLERY ************************** */
 
 
-.container {
+.gallery {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-   
+    grid-template-columns: repeat(3, 2fr); 
+    gap: 10px;
+}
+.small1,.large1 {
+
+    text-align: center;
 }
 
-.large-5 {
+.small,.large {
 
-   
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
 }
+
+
 
 
 
