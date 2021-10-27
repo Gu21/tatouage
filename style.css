@@ -224,23 +224,53 @@ h2 .service {
 
 
 .gallery {
-
+  
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3,627px); 
+    /* grid-template-rows: repeat(2,628px) 1fr; */
+    /* gap: 30px; */
     
 }
-.small1,.large1 {
 
-    text-align: center;
+.small2 {
+
+    grid-column: 1;
+    align-self: end;
 }
 
-.small,.large {
+.small3 {
 
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    grid-row: 2;
+}
+
+.small4 {
+
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.small5 {
+
+    grid-column: 3;
+    align-self: end;
     
 }
+
+.large2 {
+
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.small3,.small4,.small1,.large1,.large2,.small2,.small5 {
+
+    justify-self: center;
+
+}
+
+
+
+
 
 
 
