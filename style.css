@@ -55,13 +55,30 @@ nav .navLink {
     font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-.navLink a {
+.navLink .home {
 
     text-decoration: none;
     color: #fff;
     margin-right: 60px;
     border-bottom: 2px solid #beaa73;
     padding-bottom: 5px;
+
+}
+
+.navLink .menu {
+
+    text-decoration: none;
+    color: #fff;
+    margin-right: 60px;
+    transition: 0.5s;
+}
+
+
+ .menu:hover {
+
+    border-bottom: 2px solid #beaa73;
+    padding-bottom: 5px;
+
 }
 
 .titleTattoo {
@@ -181,7 +198,6 @@ h2 .service {
 
     width: 100%;
     height: auto
-
 }
 
 .paragraph-history {
@@ -191,7 +207,7 @@ h2 .service {
     padding: 50px;
 }
 
-.titleHistory {
+.titleHistory, .title-gallery {
 
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 2.7rem;
@@ -241,11 +257,13 @@ h2 .service {
 
 /* ************************ SECTION GALLERY ************************** */
 
-/* .sectionGrid {
+.gallery {
 
-    max-width: 1300px;
-    margin: 0 auto;
-} */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
 
 .container {
@@ -354,9 +372,9 @@ h2 .service {
 
         .container {
 
-        display: flex;
-        flex-direction: column;
-        
+            display: flex;
+            flex-direction: column;
+
         }
     }
 
@@ -371,7 +389,7 @@ h2 .service {
 
 
 
-    /* .titleHistory {
+/* .titleHistory {
 
     font-family: 'Libre Baskerville', 'Arial', serif;
     font-size: 3em;
