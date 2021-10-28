@@ -177,6 +177,13 @@ h2 .service {
     align-items: center;
 }
 
+.mannequin1Img {
+
+    width: 100%;
+    height: auto
+
+}
+
 .paragraph-history {
 
     text-align: justify;
@@ -206,7 +213,7 @@ h2 .service {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
-    border: 2px solid #beaa73;
+    border: 2px solid #fea459;
     background-color: #fff;
     transition-duration: 0.5s;
 }
@@ -214,7 +221,7 @@ h2 .service {
 .btn.history:hover {
 
     color: #fff;
-    background-color: #beaa73;
+    background-color: #fea459;
 }
 
 @media screen and (max-width:1140px) {
