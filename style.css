@@ -272,7 +272,7 @@ h2 .service {
     height: auto;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
     gap: 1rem;
     padding: 10px;
 
@@ -284,6 +284,12 @@ h2 .service {
     width: 100%;
     height: auto;
 
+}
+
+.container .galleryImgLarge {
+
+ width: 100%; 
+   
 }
 
 
