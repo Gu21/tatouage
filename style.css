@@ -308,7 +308,7 @@ h2 .service {
 
 .parallaxTattoo {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,6 +321,11 @@ h2 .service {
 
 .bg1 {
     background-image: linear-gradient(70deg, rgba(10, 10, 10, 0.70), rgb(254, 164, 89, .45)), url(./img/parallaxTattoo.jpg);
+
+}
+
+.bg2 {
+    background-image: linear-gradient(70deg, rgba(10, 10, 10, 0.70), rgb(254, 164, 89, .45)), url(./img/parallax-model.jpg);
 
 }
 
@@ -398,7 +403,7 @@ input {
 
     }
 
-   
+
 
     .parallax_form {
 
@@ -441,9 +446,9 @@ input {
     }
 
     input {
-      
+
         width: 65%;
-     
+
     }
 
 
@@ -469,5 +474,56 @@ input {
 
 
     }
+
+}
+
+.bg2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.parallax_introScreen2 {
+
+    border: 1px solid #fff;
+    padding: 52px 0 52px 0;
+    width: 28%;
+    text-align: center;
+
+}
+
+.parallax_introScreen2 h3 {
+
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: normal;
+
+}
+
+.artists-1 {
+
+    position: relative;
+    text-align: center;
+}
+
+.artists-1 h4 {
+
+    position: absolute;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 67px;
+    background: #fff;
+    padding: 15px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1.7em;
 
 }
