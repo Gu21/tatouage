@@ -329,7 +329,7 @@ h2 .service {
             rgba(10, 10, 10, 0.7),
             rgb(254, 164, 89, 0.45)),
         url(./img/parallax-model.jpg);
-        display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -353,7 +353,7 @@ h2 .service {
     border: 1px solid #fff;
     height: 58vh;
     width: 35%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.45);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -458,9 +458,9 @@ input {
 .parallaxTattoo2 {
 
     width: 100%;
-    height: 100vh;
+    height: 181vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-position: top;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ input {
 .parallax_introScreen2 {
     border: 1px solid #fff;
     padding: 52px 0 52px 0;
-    width: 20%;
+    width: 40%;
     text-align: center;
 }
 
@@ -546,11 +546,42 @@ input {
     background-color: #beaa73;
 }
 
-.artists-1 .galleryArtist,
-.parallax_introScreen2 h3 {
+.artists-1 .galleryArtist {
 
     max-width: 100%;
     height: auto;
 }
 
+@media screen and (max-width:860px) {
 
+    .parallax_introScreen2 {
+
+        width: 57%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .parallax_introScreen2 {
+
+        width: 94%;
+
+    }
+
+    .artists-1 h4 {
+        position: absolute;
+        border: 1px solid #fff;
+        width: 100%;
+        height: 52px;
+        background: #fff;
+        padding: 15 px;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 1.3em;
+        transition: .4s ease;
+    }
+
+}
