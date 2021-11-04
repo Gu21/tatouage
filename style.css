@@ -387,10 +387,10 @@ h2 .service {
 }
 
 .input_tattoo {
-    text-align: center;
+    text-align: start;
 }
 
-input {
+input, select {
     height: 5vh;
     width: 42%;
     margin-right: 31px;
@@ -434,6 +434,7 @@ input {
     .parallax_form {
         height: 66vh;
     }
+
 
     input {
         width: 65%;
