@@ -2,6 +2,6 @@
 
 # Tattoo Project IN PROGRESS
 
-* Mockup with use of css grid and flexbox.
+* Mockup with the use of css grid and flexbox.
 * Use of javascript.
 
